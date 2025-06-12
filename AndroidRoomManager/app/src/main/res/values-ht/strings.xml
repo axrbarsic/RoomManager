@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App name -->
+    <string name="app_name">Room Manager</string>
+    
+    <!-- Loading states -->
+    <string name="connecting_to_server">Kap konekte ak sèvè a...</string>
+    <string name="syncing_with_account">Kap senkronize ak axrbarsic@gmail.com</string>
+    
+    <!-- Empty states -->
+    <string name="no_rooms_data">Pa gen done chanm yo</string>
+    <string name="add_rooms_instruction">Ajoute chanm yo nan aplikasyon iOS la</string>
+    
+    <!-- Settings sections -->
+    <string name="information">Enfomasyon</string>
+    <string name="account">Kont</string>
+    <string name="synchronization">Senkronizasyon</string>
+    <string name="display_settings">Konfigirasyon Afichaj</string>
+    
+    <!-- Account info -->
+    <string name="user_email">axrbarsic@gmail.com</string>
+    <string name="built_in_auth">Otorizasyon entegre</string>
+    
+    <!-- Sync info -->
+    <string name="auto_sync_ios">Otomatik ak aplikasyon iOS</string>
+    <string name="realtime_updates">Aktyalizasyon chanm yo nan tan reyèl</string>
+    
+    <!-- Display settings -->
+    <string name="hide_white_rooms">Kache chanm blan yo jouk 9:30 nan maten</string>
+    <string name="cell_style">Estil Selil</string>
+    
+    <!-- Cell styles -->
+    <string name="style_flat">Plat (prensipal)</string>
+    <string name="style_classic">Klasik 3D</string>
+    
+    <!-- Cell style descriptions -->
+    <string name="flat_style_main">Estil plat (prensipal):</string>
+    <string name="classic_3d_style">Estil klasik 3D:</string>
+    
+    <!-- Status descriptions -->
+    <string name="hidden">Kache</string>
+    <string name="shown">Montre</string>
+    
+    <!-- Language settings -->
+    <string name="language">Lang</string>
+    <string name="language_description">Chanje lang entèfas la</string>
+</resources> 

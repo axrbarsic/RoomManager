@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App name -->
+    <string name="app_name">Room Manager</string>
+    
+    <!-- Loading states -->
+    <string name="connecting_to_server">Підключення до сервера...</string>
+    <string name="syncing_with_account">Синхронізація з axrbarsic@gmail.com</string>
+    
+    <!-- Empty states -->
+    <string name="no_rooms_data">Немає даних про кімнати</string>
+    <string name="add_rooms_instruction">Додайте кімнати через iOS додаток</string>
+    
+    <!-- Settings sections -->
+    <string name="information">Інформація</string>
+    <string name="account">Обліковий запис</string>
+    <string name="synchronization">Синхронізація</string>
+    <string name="display_settings">Налаштування відображення</string>
+    
+    <!-- Account info -->
+    <string name="user_email">axrbarsic@gmail.com</string>
+    <string name="built_in_auth">Вбудована авторизація</string>
+    
+    <!-- Sync info -->
+    <string name="auto_sync_ios">Автоматично з iOS додатком</string>
+    <string name="realtime_updates">Оновлення кімнат в реальному часі</string>
+    
+    <!-- Display settings -->
+    <string name="hide_white_rooms">Приховані білі кімнати до 9:30 ранку</string>
+    <string name="cell_style">Стиль комірок</string>
+    
+    <!-- Cell styles -->
+    <string name="style_flat">Плоский (основний)</string>
+    <string name="style_classic">Класичний 3D</string>
+    
+    <!-- Cell style descriptions -->
+    <string name="flat_style_main">Плоский стиль (основний):</string>
+    <string name="classic_3d_style">Класичний 3D стиль:</string>
+    
+    <!-- Status descriptions -->
+    <string name="hidden">Приховані</string>
+    <string name="shown">Показуються</string>
+    
+    <!-- Language settings -->
+    <string name="language">Мова</string>
+    <string name="language_description">Змінити мову інтерфейсу</string>
+</resources> 

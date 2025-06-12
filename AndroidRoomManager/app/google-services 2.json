@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "305884496829",
+    "project_id": "rm2axrbarsic",
+    "storage_bucket": "rm2axrbarsic.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:305884496829:android:b108d4",
+        "android_client_info": {
+          "package_name": "com.roommanager.android"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "305884496829-smmihfqg7a37oj2ujsc0il0nsgc40ece.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDYgF_sqaZWr1PY2SmrWx8kTmSz3TAakoc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "305884496829-smmihfqg7a37oj2ujsc0il0nsgc40ece.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+} 

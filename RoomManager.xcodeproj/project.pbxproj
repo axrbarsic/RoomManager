@@ -1,0 +1,626 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2908DF932DE62FBD0042FD05 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 2908DF922DE62FBD0042FD05 /* FirebaseAuth */; };
+		2908DF952DE62FBD0042FD05 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 2908DF942DE62FBD0042FD05 /* FirebaseFirestore */; };
+		2908E08A2DE66CD40042FD05 /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = 2908E0892DE66CD40042FD05 /* GoogleSignIn */; };
+		2908E08C2DE66CD40042FD05 /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 2908E08B2DE66CD40042FD05 /* GoogleSignInSwift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		29D15ECA2CF15B0600452BBE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29D15EB12CF15B0400452BBE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 29D15EB82CF15B0400452BBE;
+			remoteInfo = RoomManager;
+		};
+		29D15ED42CF15B0600452BBE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29D15EB12CF15B0400452BBE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 29D15EB82CF15B0400452BBE;
+			remoteInfo = RoomManager;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		29D15EB92CF15B0400452BBE /* RoomManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RoomManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		29D15EC92CF15B0600452BBE /* RoomManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RoomManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		29D15ED32CF15B0600452BBE /* RoomManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RoomManagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		29D15EBB2CF15B0400452BBE /* RoomManager */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = RoomManager;
+			sourceTree = "<group>";
+		};
+		29D15ECC2CF15B0600452BBE /* RoomManagerTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = RoomManagerTests;
+			sourceTree = "<group>";
+		};
+		29D15ED62CF15B0600452BBE /* RoomManagerUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = RoomManagerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		29D15EB62CF15B0400452BBE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2908DF932DE62FBD0042FD05 /* FirebaseAuth in Frameworks */,
+				2908DF952DE62FBD0042FD05 /* FirebaseFirestore in Frameworks */,
+				2908E08A2DE66CD40042FD05 /* GoogleSignIn in Frameworks */,
+				2908E08C2DE66CD40042FD05 /* GoogleSignInSwift in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29D15EC62CF15B0600452BBE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29D15ED02CF15B0600452BBE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		29D15EB02CF15B0400452BBE = {
+			isa = PBXGroup;
+			children = (
+				29D15EBB2CF15B0400452BBE /* RoomManager */,
+				29D15ECC2CF15B0600452BBE /* RoomManagerTests */,
+				29D15ED62CF15B0600452BBE /* RoomManagerUITests */,
+				29D15EBA2CF15B0400452BBE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		29D15EBA2CF15B0400452BBE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				29D15EB92CF15B0400452BBE /* RoomManager.app */,
+				29D15EC92CF15B0600452BBE /* RoomManagerTests.xctest */,
+				29D15ED32CF15B0600452BBE /* RoomManagerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		29D15EB82CF15B0400452BBE /* RoomManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29D15EDD2CF15B0600452BBE /* Build configuration list for PBXNativeTarget "RoomManager" */;
+			buildPhases = (
+				29D15EB52CF15B0400452BBE /* Sources */,
+				29D15EB62CF15B0400452BBE /* Frameworks */,
+				29D15EB72CF15B0400452BBE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				29D15EBB2CF15B0400452BBE /* RoomManager */,
+			);
+			name = RoomManager;
+			packageProductDependencies = (
+				2908DF922DE62FBD0042FD05 /* FirebaseAuth */,
+				2908DF942DE62FBD0042FD05 /* FirebaseFirestore */,
+				2908E0892DE66CD40042FD05 /* GoogleSignIn */,
+				2908E08B2DE66CD40042FD05 /* GoogleSignInSwift */,
+			);
+			productName = RoomManager;
+			productReference = 29D15EB92CF15B0400452BBE /* RoomManager.app */;
+			productType = "com.apple.product-type.application";
+		};
+		29D15EC82CF15B0600452BBE /* RoomManagerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29D15EE02CF15B0600452BBE /* Build configuration list for PBXNativeTarget "RoomManagerTests" */;
+			buildPhases = (
+				29D15EC52CF15B0600452BBE /* Sources */,
+				29D15EC62CF15B0600452BBE /* Frameworks */,
+				29D15EC72CF15B0600452BBE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				29D15ECB2CF15B0600452BBE /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				29D15ECC2CF15B0600452BBE /* RoomManagerTests */,
+			);
+			name = RoomManagerTests;
+			packageProductDependencies = (
+			);
+			productName = RoomManagerTests;
+			productReference = 29D15EC92CF15B0600452BBE /* RoomManagerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		29D15ED22CF15B0600452BBE /* RoomManagerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29D15EE32CF15B0600452BBE /* Build configuration list for PBXNativeTarget "RoomManagerUITests" */;
+			buildPhases = (
+				29D15ECF2CF15B0600452BBE /* Sources */,
+				29D15ED02CF15B0600452BBE /* Frameworks */,
+				29D15ED12CF15B0600452BBE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				29D15ED52CF15B0600452BBE /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				29D15ED62CF15B0600452BBE /* RoomManagerUITests */,
+			);
+			name = RoomManagerUITests;
+			packageProductDependencies = (
+			);
+			productName = RoomManagerUITests;
+			productReference = 29D15ED32CF15B0600452BBE /* RoomManagerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29D15EB12CF15B0400452BBE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					29D15EB82CF15B0400452BBE = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					29D15EC82CF15B0600452BBE = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 29D15EB82CF15B0400452BBE;
+					};
+					29D15ED22CF15B0600452BBE = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 29D15EB82CF15B0400452BBE;
+					};
+				};
+			};
+			buildConfigurationList = 29D15EB42CF15B0400452BBE /* Build configuration list for PBXProject "RoomManager" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 29D15EB02CF15B0400452BBE;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				2908DF912DE62FBD0042FD05 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				2908E0882DE66CD40042FD05 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 29D15EBA2CF15B0400452BBE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				29D15EB82CF15B0400452BBE /* RoomManager */,
+				29D15EC82CF15B0600452BBE /* RoomManagerTests */,
+				29D15ED22CF15B0600452BBE /* RoomManagerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		29D15EB72CF15B0400452BBE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29D15EC72CF15B0600452BBE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29D15ED12CF15B0600452BBE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		29D15EB52CF15B0400452BBE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29D15EC52CF15B0600452BBE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29D15ECF2CF15B0600452BBE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		29D15ECB2CF15B0600452BBE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 29D15EB82CF15B0400452BBE /* RoomManager */;
+			targetProxy = 29D15ECA2CF15B0600452BBE /* PBXContainerItemProxy */;
+		};
+		29D15ED52CF15B0600452BBE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 29D15EB82CF15B0400452BBE /* RoomManager */;
+			targetProxy = 29D15ED42CF15B0600452BBE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		29D15EDB2CF15B0600452BBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = NO;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		29D15EDC2CF15B0600452BBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = NO;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		29D15EDE2CF15B0600452BBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RoomManager/Preview Content\"";
+				DEVELOPMENT_TEAM = J6MW4855LU;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = RM2;
+				INFOPLIST_KEY_CFBundleIconName = AppIcon;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 2;
+				PRODUCT_BUNDLE_IDENTIFIER = axrbarsic.RoomManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		29D15EDF2CF15B0600452BBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RoomManager/Preview Content\"";
+				DEVELOPMENT_TEAM = J6MW4855LU;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = RM2;
+				INFOPLIST_KEY_CFBundleIconName = AppIcon;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 2;
+				PRODUCT_BUNDLE_IDENTIFIER = axrbarsic.RoomManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		29D15EE12CF15B0600452BBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = axr.RoomManagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RoomManager.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RoomManager";
+			};
+			name = Debug;
+		};
+		29D15EE22CF15B0600452BBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = axr.RoomManagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RoomManager.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RoomManager";
+			};
+			name = Release;
+		};
+		29D15EE42CF15B0600452BBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = axr.RoomManagerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RoomManager;
+			};
+			name = Debug;
+		};
+		29D15EE52CF15B0600452BBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = axr.RoomManagerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RoomManager;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		29D15EB42CF15B0400452BBE /* Build configuration list for PBXProject "RoomManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29D15EDB2CF15B0600452BBE /* Debug */,
+				29D15EDC2CF15B0600452BBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		29D15EDD2CF15B0600452BBE /* Build configuration list for PBXNativeTarget "RoomManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29D15EDE2CF15B0600452BBE /* Debug */,
+				29D15EDF2CF15B0600452BBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		29D15EE02CF15B0600452BBE /* Build configuration list for PBXNativeTarget "RoomManagerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29D15EE12CF15B0600452BBE /* Debug */,
+				29D15EE22CF15B0600452BBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		29D15EE32CF15B0600452BBE /* Build configuration list for PBXNativeTarget "RoomManagerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29D15EE42CF15B0600452BBE /* Debug */,
+				29D15EE52CF15B0600452BBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		2908DF912DE62FBD0042FD05 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.13.0;
+			};
+		};
+		2908E0882DE66CD40042FD05 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/GoogleSignIn-iOS";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2908DF922DE62FBD0042FD05 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2908DF912DE62FBD0042FD05 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		2908DF942DE62FBD0042FD05 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2908DF912DE62FBD0042FD05 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		2908E0892DE66CD40042FD05 /* GoogleSignIn */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2908E0882DE66CD40042FD05 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignIn;
+		};
+		2908E08B2DE66CD40042FD05 /* GoogleSignInSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2908E0882DE66CD40042FD05 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignInSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 29D15EB12CF15B0400452BBE /* Project object */;
+}

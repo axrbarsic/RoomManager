@@ -1,0 +1,5 @@
+# Исправления для проекта RoomManager
+# Созданы автоматически Tue Apr 15 21:18:59 EDT 2025
+
+# Используем Info.plist из отдельной директории вместо напрямую из проекта
+INFOPLIST_FILE="${PROJECT_DIR}/build_info/Info.plist"

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App name -->
+    <string name="app_name">Room Manager</string>
+    
+    <!-- Loading states -->
+    <string name="connecting_to_server">Conectando al servidor...</string>
+    <string name="syncing_with_account">Sincronizando con axrbarsic@gmail.com</string>
+    
+    <!-- Empty states -->
+    <string name="no_rooms_data">No hay datos de habitaciones</string>
+    <string name="add_rooms_instruction">Agregue habitaciones a través de la aplicación iOS</string>
+    
+    <!-- Settings sections -->
+    <string name="information">Información</string>
+    <string name="account">Cuenta</string>
+    <string name="synchronization">Sincronización</string>
+    <string name="display_settings">Configuración de pantalla</string>
+    
+    <!-- Account info -->
+    <string name="user_email">axrbarsic@gmail.com</string>
+    <string name="built_in_auth">Autorización integrada</string>
+    
+    <!-- Sync info -->
+    <string name="auto_sync_ios">Automático con aplicación iOS</string>
+    <string name="realtime_updates">Actualizaciones de habitaciones en tiempo real</string>
+    
+    <!-- Display settings -->
+    <string name="hide_white_rooms">Ocultar habitaciones blancas hasta las 9:30am</string>
+    <string name="cell_style">Estilo de celda</string>
+    
+    <!-- Cell styles -->
+    <string name="style_flat">Plano (principal)</string>
+    <string name="style_classic">Clásico 3D</string>
+    
+    <!-- Cell style descriptions -->
+    <string name="flat_style_main">Estilo plano (principal):</string>
+    <string name="classic_3d_style">Estilo clásico 3D:</string>
+    
+    <!-- Status descriptions -->
+    <string name="hidden">Ocultos</string>
+    <string name="shown">Mostrados</string>
+    
+    <!-- Language settings -->
+    <string name="language">Idioma</string>
+    <string name="language_description">Cambiar idioma de la interfaz</string>
+</resources> 

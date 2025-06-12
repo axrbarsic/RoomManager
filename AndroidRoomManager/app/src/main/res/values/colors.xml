@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Основные цвета -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="gray">#FF9E9E9E</color>
+    <color name="dark_gray">#FF1E1E1E</color>
+    
+    <!-- Material Design 3 цветовая схема (темная) -->
+    <color name="primary">#FF2196F3</color>
+    <color name="on_primary">#FFFFFFFF</color>
+    <color name="primary_container">#FF1976D2</color>
+    <color name="on_primary_container">#FFFFFFFF</color>
+    
+    <color name="secondary">#FF03DAC5</color>
+    <color name="on_secondary">#FF000000</color>
+    <color name="secondary_container">#FF00695C</color>
+    <color name="on_secondary_container">#FFFFFFFF</color>
+    
+    <color name="tertiary">#FFFFEB3B</color>
+    <color name="on_tertiary">#FF000000</color>
+    <color name="tertiary_container">#FFF57F17</color>
+    <color name="on_tertiary_container">#FF000000</color>
+    
+    <color name="error">#FFCF6679</color>
+    <color name="on_error">#FF000000</color>
+    <color name="error_container">#FFB00020</color>
+    <color name="on_error_container">#FFFFFFFF</color>
+    
+    <color name="background">#FF000000</color>
+    <color name="on_background">#FFFFFFFF</color>
+    
+    <color name="surface">#FF1E1E1E</color>
+    <color name="on_surface">#FFFFFFFF</color>
+    <color name="surface_variant">#FF2C2C2C</color>
+    <color name="on_surface_variant">#FFCCCCCC</color>
+    
+    <color name="outline">#FF444444</color>
+    <color name="outline_variant">#FF333333</color>
+    
+    <color name="surface_inverse">#FFFFFFFF</color>
+    <color name="on_surface_inverse">#FF000000</color>
+    <color name="primary_inverse">#FF2196F3</color>
+    
+    <!-- Цвета статусов комнат -->
+    <color name="room_none">#FFFFEB3B</color>       <!-- Желтый - не убрана -->
+    <color name="room_red">#FFF44336</color>        <!-- Красный - грязная -->
+    <color name="room_green">#FF4CAF50</color>      <!-- Зеленый - убрана -->
+    <color name="room_purple">#FF9C27B0</color>     <!-- Фиолетовый - доступна с времени -->
+    <color name="room_blue">#FF2196F3</color>       <!-- Синий - out of order -->
+    <color name="room_white">#FFFFFFFF</color>      <!-- Белый - скрыта -->
+    
+    <!-- Цвета индикаторов -->
+    <color name="indicator_marked">#FF4CAF50</color>        <!-- Зеленый для пометок -->
+    <color name="indicator_deep_clean">#FF2196F3</color>    <!-- Синий для deep clean -->
+    <color name="indicator_before_930">#FFFF9800</color>    <!-- Оранжевый для completed before 9:30 -->
+</resources> 

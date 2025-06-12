@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App name -->
+    <string name="app_name">Room Manager</string>
+    
+    <!-- Loading states -->
+    <string name="connecting_to_server">Connecting to server...</string>
+    <string name="syncing_with_account">Syncing with axrbarsic@gmail.com</string>
+    
+    <!-- Empty states -->
+    <string name="no_rooms_data">No room data</string>
+    <string name="add_rooms_instruction">Add rooms via iOS app</string>
+    
+    <!-- Settings sections -->
+    <string name="information">Information</string>
+    <string name="account">Account</string>
+    <string name="synchronization">Synchronization</string>
+    <string name="display_settings">Display Settings</string>
+    
+    <!-- Account info -->
+    <string name="user_email">axrbarsic@gmail.com</string>
+    <string name="built_in_auth">Built-in authorization</string>
+    
+    <!-- Sync info -->
+    <string name="auto_sync_ios">Automatic with iOS app</string>
+    <string name="realtime_updates">Real-time room updates</string>
+    
+    <!-- Display settings -->
+    <string name="hide_white_rooms">Hide white rooms until 9:30am</string>
+    <string name="cell_style">Cell Style</string>
+    
+    <!-- Cell styles -->
+    <string name="style_flat">Flat (main)</string>
+    <string name="style_classic">Classic 3D</string>
+    
+    <!-- Cell style descriptions -->
+    <string name="flat_style_main">Flat style (main):</string>
+    <string name="classic_3d_style">Classic 3D style:</string>
+    
+    <!-- Status descriptions -->
+    <string name="hidden">Hidden</string>
+    <string name="shown">Shown</string>
+    
+    <!-- Language settings -->
+    <string name="language">Language</string>
+    <string name="language_description">Change interface language</string>
+</resources> 
